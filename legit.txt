@@ -8,3 +8,9 @@ Git is free software.
 
 	使用命令git add <file>，注意，可反复多次使用，添加多个文件；add <file a><file b>
 	使用命令git commit -m <message>，完成。message本次提交的说明
+
+修改文件后，怎么提交到远程仓库
+1.git status 查看git是否有修改内容需要提交
+2.git add 指向需要提交的内容文件
+3.git commit -m "本次提交的说明"  提交到本地库
+4.git push origin master 提交到远程仓库	
