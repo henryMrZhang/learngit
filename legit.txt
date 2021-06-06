@@ -16,3 +16,5 @@ Git is free software.
 4.git push origin master 提交到远程仓库	
 
 新建分支 henry/git2.0
+
+mac tests
